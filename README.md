@@ -29,7 +29,8 @@ $ . ./bin/activate
 $ pip install librosa soundfile numpy
 ```
 
-4. Linux環境では、FastRun.sh、Windows環境ではFastRun.batを実行して必要なフォルダを作成する。（music-list、output-musicの２つ）
+4. Linux環境では、FastRun.sh、Windows環境ではFastRun.batを実行して必要なフォルダを作成する。（music-list、output-musicの２つ）  
+
 **Linuxの場合**
 ```sh
 $ ./scripts/FastRun.sh
