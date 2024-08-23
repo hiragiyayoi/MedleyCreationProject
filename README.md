@@ -1,0 +1,2 @@
+# MedleyCreationProject
+メドレーを作成するpythonプロジェクト
