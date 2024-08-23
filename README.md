@@ -39,7 +39,7 @@ $ ./scripts/FastRun.sh
 
 6. main.pyを実行する
 ```sh
-$ python3 ./scripts.main,py
+$ python3 ./scripts/main,py
 ```
 
 7. pythonの処理停止後に"output-music"にmedley.wavが出力されている
