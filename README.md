@@ -13,7 +13,6 @@ Python 3.11.9以降のバージョンとvenv、pipの実行環境が入ってい
 
 ## 使い方
 ここでは、Ubuntuでの実行方法を記載します。  
-Windows環境の場合には、PowerShellで実行してください。
 
 1. MedleyCreationProjectのルートディレクトリに移動する
 ```sh
@@ -30,9 +29,14 @@ $ . ./bin/activate
 $ pip install librosa soundfile numpy
 ```
 
-4. FastRun.shを実行して必要なフォルダを作成する。（music-list、output-musicの２つ）
+4. Linux環境では、FastRun.sh、Windows環境ではFastRun.batを実行して必要なフォルダを作成する。（music-list、output-musicの２つ）
+**Linuxの場合**
 ```sh
 $ ./scripts/FastRun.sh
+```
+**Windowsの場合**
+```
+$ ./scripts/FastRun.bat
 ```
 
 5. "music-list"にメドレーに入れたい楽曲（.wav、.mp3、.ogg）を配置する
