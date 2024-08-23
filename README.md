@@ -3,6 +3,8 @@
 
 ## 概要
 .wav、.mp3、.oggのいずれかの形式のファイルをつなげてメドレーとして制作するPythonのプロジェクトです。  
+メドレーにおける楽曲の再生順番はOSの標準機能で並び替えてください。  
+エクスプローラーなどで表示されたファイルを上から順番にメドレーとして制作します。
 
 ## 前提条件
 Python 3.11.9以降のバージョンとvenv、pipの実行環境が入っているものとする。
@@ -37,7 +39,7 @@ $ ./scripts/FastRun.sh
 
 6. main.pyを実行する
 ```sh
-$ python3 ./scripts.main,py
+$ python3 ./scripts/main,py
 ```
 
 7. pythonの処理停止後に"output-music"にmedley.wavが出力されている
