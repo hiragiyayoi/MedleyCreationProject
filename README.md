@@ -15,6 +15,8 @@ Python 3.11.9以降のバージョンとvenv、pipの実行環境が入ってい
 Ubuntuによる使い方を説明します。Windows環境の方は適宜読み替えてください。  
 また、Windows環境の方はPowerShellでの実行をおすすめします。（シェルスクリプトを実行します）
 
+＊２回目以降の実行は5.から実行してください。
+
 1. MedleyCreationProjectのルートディレクトリに移動する
 ```sh
 $ cd [MedleyCreationProjectのパス]
