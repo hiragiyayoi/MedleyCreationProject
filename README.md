@@ -10,6 +10,9 @@ Python 3.11.9以降のバージョンとvenv、pipの実行環境が入ってい
 
 
 ## 使い方
+ここでは、Ubuntuでの実行方法を記載します。  
+Windows環境の場合には、PowerShellで実行してください。
+
 1. MedleyCreationProjectのルートディレクトリに移動する
 ```sh
 $ cd [MedleyCreationProjectのパス]
